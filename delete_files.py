@@ -15,7 +15,6 @@ def dcswd():
     #deletes files containing a certain substring (as specified), in the directory of users choice
     dir_name = input('Specify Directory:')
     a = input('Files contain:')
-    dir_name = os.getcwd()
     test = os.listdir(dir_name)
     for i in test:
         if i.find(a) != -1:
